@@ -10,8 +10,11 @@ Installation
 
 sorrek-dataroom releases are available as wheel packages for macOS, Windows and Linux on PyPI. Install it using ``pip``:
 
-``python -m pip install -U pip
-python -m pip install -U sorrek-dataroom``
+.. code-block:: bash
+
+
+    python -m pip install -U pip
+    python -m pip install -U sorrek-dataroom
 
 Setup
 =====
