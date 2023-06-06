@@ -44,6 +44,7 @@ Usage
 Uploading csv files to the Dataroom
 -----------------------------------
 Use the ``upload_csv_file`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
@@ -53,6 +54,7 @@ Use the ``upload_csv_file`` method:
 Downloading csv files in the Dataroom as dataframes
 ---------------------------------------------------
 Use the ``download_csv_to_df`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
@@ -62,6 +64,7 @@ Use the ``download_csv_to_df`` method:
 Deleting files in the Dataroom
 ------------------------------
 Use the ``delete_file`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
@@ -71,6 +74,7 @@ Use the ``delete_file`` method:
 Renaming files in the Dataroom
 ------------------------------
 Use the ``rename_file`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
@@ -80,6 +84,7 @@ Use the ``rename_file`` method:
 Getting file metadata
 ---------------------
 Use the ``get_file_metadata`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
@@ -89,6 +94,7 @@ Use the ``get_file_metadata`` method:
 Getting folder contents
 -----------------------
 Use the ``get_folder_contents`` method:
+
 .. code:: py
 
     import sorrek_dataroom.api as sorrek
