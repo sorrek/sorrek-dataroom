@@ -24,7 +24,7 @@ After creating the client, you will need to authenticate your application. You c
 
 .. code:: py
 
-	import sorrek-dataroom as sorrek
+	import sorrek_dataroom.api as sorrek
 
 	sorrek.get_auth_url(client_id)
 
@@ -32,7 +32,7 @@ Open the printed URL in a web browser and click "Approve". The webpage will relo
 
 .. code:: py
 
-	import sorrek-dataroom as sorrek
+	import sorrek_dataroom.api as sorrek
 
 	sorrek.store_access_token(url, client_id, client_secret)
 
@@ -46,7 +46,7 @@ Uploading csv files to the Dataroom
 Use the ``upload_csv_file`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.upload_csv_file(folder_id, upload_file_path)
 
@@ -55,7 +55,7 @@ Downloading csv files in the Dataroom as dataframes
 Use the ``download_csv_to_df`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.download_csv_to_df(file_id)
 
@@ -64,7 +64,7 @@ Deleting files in the Dataroom
 Use the ``delete_file`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.delete_file(file_id)
 
@@ -73,7 +73,7 @@ Renaming files in the Dataroom
 Use the ``rename_file`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.rename_file(file_id, new_file_name)
 
@@ -82,7 +82,7 @@ Getting file metadata
 Use the ``get_file_metadata`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.get_file_metadata(file_id)
 
@@ -91,7 +91,7 @@ Getting folder contents
 Use the ``get_folder_contents`` method:
 .. code:: py
 
-    import sorrek-dataroom as sorrek
+    import sorrek_dataroom.api as sorrek
 
     sorrek.get_folder_contents(folder_id, sort, offset)
 **Note:** Offset is an optional parameter (default 0) that can be used to paginate results. 

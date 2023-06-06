@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+src/sorrek_dataroom/api.py
+src/sorrek_dataroom/init.py
+src/sorrek_dataroom.egg-info/PKG-INFO
+src/sorrek_dataroom.egg-info/SOURCES.txt
+src/sorrek_dataroom.egg-info/dependency_links.txt
+src/sorrek_dataroom.egg-info/top_level.txt
