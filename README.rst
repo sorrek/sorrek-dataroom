@@ -94,6 +94,7 @@ Use the ``get_folder_contents`` method:
     import sorrek_dataroom.api as sorrek
 
     sorrek.get_folder_contents(folder_id, sort, offset)
+
 **Note:** Offset is an optional parameter (default 0) that can be used to paginate results. 
 
 FAQs
